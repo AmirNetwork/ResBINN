@@ -682,7 +682,7 @@ def plot_with_true_overlay(model_est, true_est, feature_name, alt_target,
     disp_model = PartialDependenceDisplay.from_estimator(
         model_est, x_train, [feature_name], kind="both",
         ice_lines_kw=dict(color="gray", alpha=.3, label="_nolegend_"),
-        pd_line_kw=dict(color="blue", lw=2, linestyle="-.", label="ASU-Feng (Avg)"),
+        pd_line_kw=dict(color="blue", lw=2, linestyle="-.", label="ASU-ResBINN (Avg)"),
         target=alt_target, subsample=.2, grid_resolution=20, centered=True,
         random_state=1, response_method="decision_function",
         percentiles=(.01, .99), ax=ax)
