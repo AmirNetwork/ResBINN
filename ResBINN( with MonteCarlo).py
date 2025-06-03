@@ -79,7 +79,7 @@ def _mis_spec(val):
     return val * np.exp(eps)
 
 
-SIGMA_VALUES = [0.00, 0.05, 0.10, 0.25, 0.50, 1.00]#[s] * 10
+SIGMA_VALUES = [ 0.05, 0.10, 0.25, 0.50]
 
 
 num_experiments  = len(SIGMA_VALUES)              
