@@ -261,7 +261,7 @@ beta_tt_sm_mean, beta_tc_sm_mean, beta_he_sm_mean, beta_seat_sm_mean = -1.0, -2.
 beta_tt_car_mean, beta_tc_car_mean = -1.4, -1.9
 
 # Standard deviations for random draws
-std_alpha = 0.01
+std_alpha = 0.01  ## from previous version not effectively used
 std_beta_tt = 0.01
 std_beta_tc = 0.01
 std_beta_he = 0.01
